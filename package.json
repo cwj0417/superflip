@@ -1,22 +1,16 @@
 {
-  "name": "flip",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "superflip",
+  "version": "2.0.0",
+  "description": "Super Flip —— 霓虹风格的弹球折射街机小游戏",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fjonas/superflip.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fjonas/superflip/issues"
-  },
-  "homepage": "https://github.com/fjonas/superflip#readme",
-  "dependencies": {
-    "victor": "^1.1.0"
-  }
+  "keywords": [
+    "game",
+    "canvas",
+    "arcade"
+  ],
+  "license": "ISC"
 }
